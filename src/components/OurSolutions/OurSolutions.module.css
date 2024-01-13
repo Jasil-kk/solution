@@ -1,0 +1,89 @@
+.ourSolutions_main {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading_text {
+  color: var(--secondary-black);
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 2.25rem;
+}
+nav .items_container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+nav .items_container li {
+  color: var(--secondary-black);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  border: 2px;
+  border-radius: 1.75rem;
+}
+nav .items_container .active {
+  border-radius: 1.75rem;
+  border: 2px solid#ff4729;
+  padding: 0.5rem 1.875rem;
+  font-weight: 500;
+}
+.card_container {
+  margin-top: 4.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2.25rem;
+}
+
+.pagination {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.pagination li {
+  display: inline-block;
+  margin: 0 0.65rem;
+  cursor: pointer;
+}
+.pagination a {
+  text-decoration: none;
+  padding: 0.6rem 0.875rem;
+  border: 1px solid #ff4729;
+  color: #ff4729;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 200;
+}
+.pagination a:hover {
+  background-color: #eee;
+}
+.pagination .active a {
+  color: var(--primary-white);
+  font-size: 1.275rem;
+  font-style: normal;
+  font-weight: 600;
+  background: #ff4729;
+  padding: 0.875rem 1.25rem;
+}
+
+.pagination img {
+  width: 3rem;
+  height: 2rem;
+}
+.next a,
+.prev a {
+  border: none;
+  display: flex;
+  align-items: center;
+}

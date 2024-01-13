@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import classes from "./Banner.module.css";
 import buttonArrow from "../../assets/images/button-arrow.svg";
 import arrowRight from "../../assets/images/arrow-right.svg";

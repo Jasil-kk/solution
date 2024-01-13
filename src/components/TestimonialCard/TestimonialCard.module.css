@@ -1,0 +1,39 @@
+.testimonialCard {
+  width: 26rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid#000060;
+  border-left: 1px solid#000060;
+  padding: 0 3rem;
+}
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name {
+  margin-top: 1rem;
+  color: var(--primary-black);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.description {
+  margin-top: 1.5rem;
+  color: var(--primary-black);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem;
+}

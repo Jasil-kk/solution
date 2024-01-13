@@ -1,0 +1,15 @@
+.testimonials_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 0;
+}
+.heading_text {
+  color: var(--primary-black);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+}
