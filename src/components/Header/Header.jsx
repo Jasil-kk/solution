@@ -3,6 +3,8 @@ import classes from "./Header.module.css";
 import logo from "../../assets/images/logo.svg";
 import downArrow from "../../assets/images/down-arrow.svg";
 import menuIcon from "../../assets/images/menu-icon.png"
+import closeIcon from "../../assets/images/close.png"
+
 
 export const Header = () => {
   const [show,setShow] = useState(false);
@@ -14,6 +16,7 @@ export const Header = () => {
     <header className={classes.header_main}>
       <img src={logo} alt="Logo" className={classes.logo} />
       <nav className={show ? classes.showNav : classes.hideNav}>
+        <img src={closeIcon} alt="Close" onClick={handleShow} className={classes.closeIcon}/>
         <ul className={classes.nav_items_container}>
           <li>
             Solutions{" "}
