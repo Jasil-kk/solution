@@ -12,7 +12,7 @@ export const BannerCard = ({ text, image, onClick }) => {
         backgroundPosition: "center",
       }}
     >
-    <h3 className={classes.card_text}>{text}</h3>
+      <h3 className={classes.card_text}>{text}</h3>
       <button className={classes.card_btn}>Play Now</button>
     </div>
   );

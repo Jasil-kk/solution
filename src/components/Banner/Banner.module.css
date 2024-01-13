@@ -33,6 +33,7 @@
     #000060 89.51%
   );
   padding: 9rem 0 1.85rem 0;
+  position: relative;
 }
 .banner_heading {
   max-width: 66rem;
@@ -68,6 +69,48 @@
   width: 2.25rem;
   height: 2.25rem;
   cursor: pointer;
+}
+.bubble1 {
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+  width: 1rem;
+  height: 1rem;
+}
+.bubble2 {
+  position: absolute;
+  top: 28rem;
+  left: 3rem;
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.bubble3 {
+  position: absolute;
+  top: 18rem;
+  left: 16rem;
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.bubble4 {
+  position: absolute;
+  top: 2rem;
+  right: 11rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.bubble5 {
+  position: absolute;
+  top: 22rem;
+  right: 16rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.bubble6 {
+  position: absolute;
+  top: 32rem;
+  right: 6rem;
+  width: 1rem;
+  height: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .banner_container {

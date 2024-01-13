@@ -5,11 +5,45 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 2rem 0;
+  padding: 7rem 0;
 }
 .heading_text {
   color: var(--primary-black);
   font-size: 3rem;
   font-style: normal;
   font-weight: 500;
+}
+.slider_container {
+  margin-top: 8rem;
+  width: 100%;
+}
+.indicators {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.indicators img {
+  width: 1.875rem;
+  height: auto;
+  cursor: pointer;
+  margin: 0 2rem;
+}
+.circle {
+  width: 0.875rem;
+  height: 0.875rem;
+  opacity: 0.4;
+  background: #ff4729;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.circle.active {
+  opacity: 1;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: #007bff;
+  background: #ff4729;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }

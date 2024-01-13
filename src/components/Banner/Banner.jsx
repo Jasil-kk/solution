@@ -6,6 +6,7 @@ import arrowLeft from "../../assets/images/arrow-left.svg";
 import drill from "../../assets/images/drill.png";
 import helmet from "../../assets/images/helmet.png";
 import tire from "../../assets/images/tire.png";
+import bubble from "../../assets/images/bubble.png"
 import { CustomButton } from "../CustomButton/CustomButton";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -51,6 +52,12 @@ export const Banner = () => {
         For a free demo, write to us: <span>hello@tulfa.com</span>
       </h4>
       <div className={classes.banner_container}>
+        <img src={bubble} alt="Bubble" className={classes.bubble1}/>
+        <img src={bubble} alt="Bubble" className={classes.bubble2}/>
+        <img src={bubble} alt="Bubble" className={classes.bubble3}/>
+        <img src={bubble} alt="Bubble" className={classes.bubble4}/>
+        <img src={bubble} alt="Bubble" className={classes.bubble5}/>
+        <img src={bubble} alt="Bubble" className={classes.bubble6}/>
         <h1 className={classes.banner_heading}>
           Check out our portfolio to discover how we can make your product
           listings pop.

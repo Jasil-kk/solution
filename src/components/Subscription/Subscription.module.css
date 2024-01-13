@@ -1,0 +1,39 @@
+.subscription_main {
+  width: 100%;
+  height: auto;
+  background: #000060;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 5%;
+  position: relative;
+}
+.heading_text {
+  color: var(--primary-white);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.para_text {
+  margin-top: 1rem;
+  color: #c7c7c7;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.button_container {
+  margin-top: 2.5rem;
+}
+.backgroundImage1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17rem;
+}
+.backgroundImage2 {
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  width: 21rem;
+}
