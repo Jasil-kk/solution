@@ -87,3 +87,78 @@ nav .items_container .active {
   display: flex;
   align-items: center;
 }
+
+@media only screen and (max-width: 930px) {
+  .ourSolutions_main {
+    padding: 3rem 0 2rem 0;
+  }
+  .heading_text {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  nav .items_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  nav .items_container li {
+    font-size: 1.125rem;
+  }
+  nav .items_container .active {
+    padding: 0.35rem 1.65rem;
+  }
+  .card_container {
+    margin-top: 3rem;
+    gap: 1rem;
+  }
+  .pagination {
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  .pagination li {
+    margin: 0 0.35rem;
+  }
+  .pagination a {
+    padding: 0.45rem 0.675rem;
+    font-size: 1rem;
+  }
+  .pagination .active a {
+    font-size: 1.125rem;
+    padding: 0.55rem 0.875rem;
+  }
+  .pagination img {
+    width: 2rem;
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heading_text {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  nav .items_container {
+    gap: 1.5rem;
+    padding: 0 5%;
+  }
+  nav .items_container li {
+    font-size: 1rem;
+  }
+  nav .items_container .active {
+    padding: 0.35rem 1.5rem;
+  }
+  .card_container {
+    margin-top: 2.5rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 5%;
+  }
+  .pagination {
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .pagination li {
+    margin: 0.5rem 0.35rem;
+  }
+}

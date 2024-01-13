@@ -35,6 +35,26 @@ export const Testimonials = () => {
     variableWidth: true,
     centerMode: true,
     afterChange: (current) => setActiveSlide(current),
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          adaptiveHeight: true,
+        },
+      },
+    ],
   };
 
   const nextSlide = () => {

@@ -16,18 +16,30 @@
 }
 
 .headText {
-    margin-top: 1.875rem;
+  margin-top: 1.875rem;
   color: var(--secondary-black);
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
 }
 .paraText {
-    margin-top: 0.85rem;
-    margin-bottom: 1.875rem;
+  margin-top: 0.85rem;
+  margin-bottom: 1.875rem;
 
   color: var(--secondary-black);
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .headText {
+    margin-top: 0.65rem;
+    font-size: 1.125rem;
+  }
+  .paraText {
+    margin-top: 0.55rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
 }

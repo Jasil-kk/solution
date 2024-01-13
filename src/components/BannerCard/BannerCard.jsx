@@ -6,12 +6,13 @@ export const BannerCard = ({ text, image, onClick }) => {
     <div
       className={classes.bannerCard}
       style={{
-        backgroundImage: `url(${image})`,
+        // backgroundImage: `url(${image})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
     >
+      <img src={image} alt="" />
       <h3 className={classes.card_text}>{text}</h3>
       <button className={classes.card_btn}>Play Now</button>
     </div>

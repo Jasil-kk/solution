@@ -144,4 +144,11 @@
   .button_container {
     margin-top: 2rem;
   }
+  .card_container {
+    margin-top: 4rem;
+  }
+  .arrow_container img {
+    width: 2rem;
+    height: 2rem;
+  }
 }

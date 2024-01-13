@@ -14,8 +14,8 @@ export const HomePage = () => {
       <Banner />
       <OurSolutions />
       <Testimonials />
-      <Subscription/>
-      <Footer/>
+      <Subscription />
+      <Footer />
     </div>
   );
 };

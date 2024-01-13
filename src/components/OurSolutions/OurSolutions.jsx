@@ -17,24 +17,7 @@ export const OurSolutions = () => {
   const handlePageChange = ({ selected }) => {
     setCurrentPage(selected);
   };
-  const renderPageNumbers = () => {
-    const pageNumbers = [];
 
-    for (let i = 1; i <= 5; i++) {
-      const pageNumber = i < 10 ? `0${i}` : `${i}`;
-      pageNumbers.push(
-        <button
-          key={i}
-          onClick={() => handlePageChange(i - 1)}
-          className={i === currentPage + 1 ? "active" : ""}
-        >
-          {pageNumber}
-        </button>
-      );
-    }
-
-    return pageNumbers;
-  };
   const ourSolutions = [
     {
       image: augment,
@@ -93,7 +76,7 @@ export const OurSolutions = () => {
         ))}
       </div>
       <ReactPaginate
-       breakLabel="..."
+        breakLabel="..."
         pageCount={20}
         pageRangeDisplayed={10}
         marginPagesDisplayed={0}
