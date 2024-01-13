@@ -1,0 +1,103 @@
+.banner_main {
+  margin-top: 1.7rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label_text {
+  color: #242424;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 5%;
+}
+.label_text span {
+  color: #ff4729;
+  text-decoration-line: underline;
+}
+.banner_container {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 96, 0.73) 12.38%,
+    #000060 89.51%
+  );
+  padding: 9rem 0 2rem 0;
+}
+.banner_heading {
+  max-width: 66rem;
+  color: var(--primary-white);
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.banner_para {
+  max-width: 42rem;
+  margin-top: 2.9rem;
+  color: var(--primary-white);
+  font-size: 1.285rem;
+  font-style: normal;
+  font-weight: 300;
+}
+.button_container {
+  margin-top: 4rem;
+}
+.card_container {
+  margin-top: 8rem;
+  width: 100%;
+}
+.arrow_container {
+    margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow_container img {
+  width: 2.25rem;
+  height: 2.25rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+  .banner_container {
+    padding: 5rem 5% 1.875rem 5%;
+  }
+  .banner_heading {
+    font-size: 3rem;
+  }
+  .banner_para {
+    margin-top: 2.5rem;
+    font-size: 1.125rem;
+  }
+  .button_container {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .label_text {
+    font-size: 0.875rem;
+  }
+  .banner_container {
+    padding: 3rem 5% 1.5rem 5%;
+  }
+  .banner_heading {
+    font-size: 2.125rem;
+  }
+  .banner_para {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .button_container {
+    margin-top: 2rem;
+  }
+}
